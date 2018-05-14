@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window
+	x:Class="WayZainer_UI.MF_1" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	Title="WayZainer_UI"
+	Width="1920"
+	Height="1040" xmlns:Controls0="clr-namespace:Hanmac.Controls.Buttons;assembly=Hanmac.Controls.Buttons">
+    <StackPanel HorizontalAlignment="Left" Height="80" Margin="0,0,-7,0" VerticalAlignment="Top" Width="1919" Background="{DynamicResource {x:Static SystemColors.ControlDarkDarkBrushKey}}"/>
+</Window>

@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Window
+	x:Class="WayZainer_UI.Subform" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	Title="WayZainer_UI"
+	Width="1920"
+	Height="1040">
+	<Grid
+		RenderTransformOrigin="0.1278,0.1885">
+		<StackPanel
+			Background="DimGray"
+			Margin="0,0,-30,0"
+			VerticalAlignment="Top"
+			HorizontalAlignment="Right"
+			Grid.Row="0"
+			Grid.Column="1"
+			Height="60"
+			Width="1920"
+			Grid.ColumnSpan="15" />
+		<GroupBox
+			Header="GroupBox"
+			Width="404"
+			Height="193"
+			Grid.Row="0"
+			HorizontalAlignment="Left"
+			VerticalAlignment="Top"
+			Grid.ColumnSpan="2"
+			Grid.Column="4"
+			Margin="19.1621217756155,242,0,0">
+			<Canvas />
+		</GroupBox>
+		<Label
+			Width="145"
+			Height="65"
+			Grid.Row="0"
+			HorizontalAlignment="Left"
+			VerticalAlignment="Top"
+			Margin="71,190,0,0"
+			Grid.ColumnSpan="3"
+			Grid.Column="5" />
+		<Line
+			Grid.Row="0"
+			HorizontalAlignment="Left"
+			VerticalAlignment="Top"
+			Stroke="Black"
+			StrokeThickness="2"
+			Stretch="None"
+			Grid.Column="4"
+			Margin="59.1621217756155,532,0,0" />
+		<RichTextBox
+			Height="194"
+			Width="292"
+			Grid.ColumnSpan="4"
+			Grid.Row="0"
+			HorizontalAlignment="Left"
+			VerticalAlignment="Top"
+			Grid.Column="4"
+			Margin="238.162121775616,255,0,0" />
+		<ComboBox
+			Width="221"
+			Height="118"
+			Grid.Row="0"
+			HorizontalAlignment="Left"
+			VerticalAlignment="Top"
+			Margin="55,467,0,0"
+			Grid.ColumnSpan="3"
+			Grid.Column="7" />
+		<CheckBox
+			Content="텍스트 박스"
+			Width="140"
+			Height="35"
+			Grid.Row="0"
+			HorizontalAlignment="Left"
+			VerticalAlignment="Top"
+			Grid.ColumnSpan="2"
+			Margin="14.6010104333243,220,0,0"
+			Grid.Column="10" />
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition
+				Width="0*" />
+			<ColumnDefinition
+				Width="0.00471204188481675*" />
+			<ColumnDefinition
+				Width="0.031413612565445*" />
+			<ColumnDefinition
+				Width="0.0957266378138137*" />
+			<ColumnDefinition
+				Width="0.176524671086709*" />
+			<ColumnDefinition
+				Width="0.0539267015706807*" />
+			<ColumnDefinition
+				Width="0.0319371727748691*" />
+			<ColumnDefinition
+				Width="0.031413612565445*" />
+			<ColumnDefinition
+				Width="0.0303664921465969*" />
+			<ColumnDefinition
+				Width="0.146294597925953*" />
+			<ColumnDefinition
+				Width="0.0631472445844205*" />
+			<ColumnDefinition
+				Width="0.0407447152893813*" />
+			<ColumnDefinition
+				Width="0.0258880023228232*" />
+			<ColumnDefinition
+				Width="0.0438814949870205*" />
+			<ColumnDefinition
+				Width="0.0164516671041551*" />
+			<ColumnDefinition
+				Width="0.207571335377871*" />
+		</Grid.ColumnDefinitions>
+	</Grid>
+</Window>
